@@ -3,7 +3,7 @@ import Header from "./component/Header";
 import Content from "./component/Content";
 import Footer from "./component/Footer";
 
-export const page = () => {
+export default function Home(){
   return (
     <div>
       <Header/>
@@ -13,4 +13,3 @@ export const page = () => {
   )
 }
 
-export default page
